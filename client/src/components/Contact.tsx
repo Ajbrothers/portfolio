@@ -37,14 +37,14 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Call Us",
-      value: "+91 XXXXX XXXXX",
-      link: "tel:+91XXXXXXXXXX"
+      value: "+91 84316 69017",
+      link: "tel:+918431669017"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
       value: "Chat with us",
-      link: "https://wa.me/91XXXXXXXXXX"
+      link: "https://wa.me/918431669017"
     },
     {
       icon: Clock,

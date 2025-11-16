@@ -1,4 +1,4 @@
-import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiThreads, SiX } from "react-icons/si";
 import logo from "@assets/AJ Brothers Logo_1760859147255.png";
 
 export default function Footer() {
@@ -19,10 +19,10 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { icon: SiFacebook, href: "#", label: "Facebook" },
-    { icon: SiInstagram, href: "#", label: "Instagram" },
-    { icon: SiLinkedin, href: "#", label: "LinkedIn" },
-    { icon: SiX, href: "#", label: "X" }
+    { icon: SiFacebook, href: "https://www.facebook.com/profile.php?id=61579283870777", label: "Facebook" },
+    { icon: SiInstagram, href: "https://www.instagram.com/a_j__brothers/", label: "Instagram" },
+    { icon: SiThreads, href: "https://www.threads.com/@a_j__brothers", label: "Threads" },
+    { icon: SiX, href: "https://x.com/A_j_brothers", label: "X" }
   ];
 
   return (
